@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230413224314">
+	<title>Главная</title>
+</head>
+<body>
+	<header class="header">
+	<div class="container text-white text-center text-md-start">
+		<nav class="navbar justify-content-center">
+			<a href="#" class="navbar-brand m-0 p-0"><img src="img/header/logo.svg" alt="logo"></a>
+		</nav>
+		<div class="header__text-block row justify-content-center">
+			<div class="col-md-9 col-lg-10 col-xl-9 d-md-flex flex-md-row-reverse">
+				<div class="header__text">
+					<div class="header__slogan fw-bolder">Только самые <span>сочные бургеры!</span></div>
+					<div class="header__promotion">Бесплатная доставка от 599₽</div>
+				</div>
+				<div class="header__burger-image d-lg-none"><img src="img/header/burger320_768.svg" alt="burger"></div>
+				<div class="header__burger-image d-none d-lg-block"><img src="img/header/burger1024.svg" alt="burger"></div>
+			</div>
+		</div>
+	</div>
+</header>
+	<main>
+		<div class="catalog">
+			<div class="container">
+				<ul class="catalog__list nav nav-pills flex-nowrap text-nowrap overflow-auto">
+					<li class="nav-item">
+					  <a class="nav-link text-black active" aria-current="page" href="#"><picture><source srcset="img/catalog/burgers.webp" type="image/webp"><picture><source srcset="img/catalog/burgers.webp" type="image/webp"><img src="img/catalog/burgers.png" alt="burgers"></picture></picture>Бургеры</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link text-black" href="#"><picture><source srcset="img/catalog/free-icon-onion-2362361.webp" type="image/webp"><picture><source srcset="img/catalog/free-icon-onion-2362361.webp" type="image/webp"><img src="img/catalog/free-icon-onion-2362361.png" alt=""></picture></picture>Закуски</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link text-black" href="#"><picture><source srcset="img/catalog/free-icon-hotdog-sandwich-2362313.webp" type="image/webp"><picture><source srcset="img/catalog/free-icon-hotdog-sandwich-2362313.webp" type="image/webp"><img src="img/catalog/free-icon-hotdog-sandwich-2362313.png" alt=""></picture></picture>Хот-доги</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link text-black" href="#"><picture><source srcset="img/catalog/free-icon-fast-food-2362274.webp" type="image/webp"><picture><source srcset="img/catalog/free-icon-fast-food-2362274.webp" type="image/webp"><img src="img/catalog/free-icon-fast-food-2362274.png" alt=""></picture></picture>Комбо</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-black" href="#"><picture><source srcset="img/catalog/free-icon-burrito-2362225.webp" type="image/webp"><picture><source srcset="img/catalog/free-icon-burrito-2362225.webp" type="image/webp"><img src="img/catalog/free-icon-burrito-2362225.png" alt=""></picture></picture>Шаурма</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-black" href="#"><picture><source srcset="img/catalog/free-icon-pizza-2362372.webp" type="image/webp"><picture><source srcset="img/catalog/free-icon-pizza-2362372.webp" type="image/webp"><img src="img/catalog/free-icon-pizza-2362372.png" alt=""></picture></picture>Пицца</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-black" href="#"><picture><source srcset="img/catalog/free-icon-noodles-2362350.webp" type="image/webp"><picture><source srcset="img/catalog/free-icon-noodles-2362350.webp" type="image/webp"><img src="img/catalog/free-icon-noodles-2362350.png" alt=""></picture></picture>Вок</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-black" href="#"><picture><source srcset="img/catalog/free-icon-doughnut-2362260.webp" type="image/webp"><picture><source srcset="img/catalog/free-icon-doughnut-2362260.webp" type="image/webp"><img src="img/catalog/free-icon-doughnut-2362260.png" alt=""></picture></picture>Десерты</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-black" href="#"><picture><source srcset="img/catalog/free-icon-ketchup-2362341.webp" type="image/webp"><picture><source srcset="img/catalog/free-icon-ketchup-2362341.webp" type="image/webp"><img src="img/catalog/free-icon-ketchup-2362341.png" alt=""></picture></picture>Соусы</a>
+					</li>
+				</ul>
+				<div class="row flex-column">
+					<div class="col col-md-3 cart-wrapper">
+						<div class="catalog__cart cart">
+							<div class="cart__body position-relative">
+								<button class="border-0 text-decoration-none text-black d-flex justify-content-between position-relative align-items-center w-100" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+									Корзина <span>0</span>
+								</button>
+								<div class="position-absolute collapse start-0 end-0 top-100" id="collapseExample">
+									<ul class="cart__order-list order-list">
+										<li class="order-list__item order d-flex justify-content-between align-items-center">
+											<div class="order__description d-flex">
+												<div class="order__img">
+													<picture><source srcset="img/cart/order-pic.webp" type="image/webp"><picture><source srcset="img/cart/order-pic.webp" type="image/webp"><img src="img/cart/order-pic.jpg" alt="order-picture"></picture></picture>
+												</div>
+												<div class="order__properties">
+													<div class="order__name">Супер сырный</div>
+													<div class="order__weight">512г</div>
+													<div class="order__price">550₽</div>
+												</div>	
+											</div>
+											<div class="order__counter">
+												<span class="order__minus">-</span>
+												<span class="order__count">1</span>
+												<span class="order__add">+</span>
+											</div>
+										</li>
+										<li class="order-list__item order d-flex justify-content-between align-items-center">
+											<div class="order__description d-flex">
+												<div class="order__img">
+													<picture><source srcset="img/cart/order-pic.webp" type="image/webp"><picture><source srcset="img/cart/order-pic.webp" type="image/webp"><img src="img/cart/order-pic.jpg" alt="order-picture"></picture></picture>
+												</div>
+												<div class="order__properties">
+													<div class="order__name">Супер сырный</div>
+													<div class="order__weight">512г</div>
+													<div class="order__price">550₽</div>
+												</div>	
+											</div>
+											<div class="order__counter">
+												<span class="order__minus">-</span>
+												<span class="order__count">1</span>
+												<span class="order__add">+</span>
+											</div>
+										</li>
+										<li class="order-list__item order d-flex justify-content-between align-items-center">
+											<div class="order__description d-flex">
+												<div class="order__img">
+													<picture><source srcset="img/cart/order-pic.webp" type="image/webp"><picture><source srcset="img/cart/order-pic.webp" type="image/webp"><img src="img/cart/order-pic.jpg" alt="order-picture"></picture></picture>
+												</div>
+												<div class="order__properties">
+													<div class="order__name">Супер сырный</div>
+													<div class="order__weight">512г</div>
+													<div class="order__price">550₽</div>
+												</div>	
+											</div>
+											<div class="order__counter">
+												<span class="order__minus">-</span>
+												<span class="order__count">1</span>
+												<span class="order__add">+</span>
+											</div>
+										</li>
+									</ul>
+									<div class="cart__sum d-flex justify-content-between">
+										<span>Итого</span>
+										<span>1279₽</span>
+									</div>
+									<a class="cart__btn btn btn-orange w-100" href="#">Оформить заказ</a>
+									<div class="cart__free-delivery d-flex justify-content-between align-items-center">
+										<span class="d-flex align-items-center column-gap-2"><picture><source srcset="img/cart/free-icon-delivery-2362252.webp" type="image/webp"><picture><source srcset="img/cart/free-icon-delivery-2362252.webp" type="image/webp"><img src="img/cart/free-icon-delivery-2362252.png" alt="free-delivery"></picture></picture> Бесплатная доставка</span>
+										<span><button class="" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Свернуть</button></span>
+									</div>
+								</div>
+							</div>	
+						</div>
+					</div>
+					<div class="col"></div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer class="footer">
+</footer>
+	<script src="js/app.min.js?_v=20230413224314"></script>
+</body>
+</html>
