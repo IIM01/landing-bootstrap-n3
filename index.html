@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/style.min.css?_v=20230414180349">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230415000543">
 	<title>Главная</title>
 </head>
 <body>
@@ -30,31 +30,31 @@
 			<div class="container">
 				<ul class="catalog__list nav nav-pills flex-nowrap text-nowrap overflow-auto">
 					<li class="nav-item">
-					  <a class="nav-link text-black active" aria-current="page" href="#"><picture><source srcset="img/catalog/burgers.webp" type="image/webp"><picture><source srcset="img/catalog/burgers.webp" type="image/webp"><img src="img/catalog/burgers.png" alt="burgers"></picture></picture>Бургеры</a>
+					  <a class="nav-link text-black active" id="burgers-tab" data-bs-toggle="pill" data-bs-target="#burgers" type="button" role="tab" aria-controls="burgers" aria-selected="true"><picture><source srcset="img/catalog/burgers.webp" type="image/webp"><picture><source srcset="img/catalog/burgers.webp" type="image/webp"><img src="img/catalog/burgers.png" alt="burgers"></picture></picture>Бургеры</a>
 					</li>
 					<li class="nav-item">
-					  <a class="nav-link text-black" href="#"><picture><source srcset="img/catalog/free-icon-onion-2362361.webp" type="image/webp"><picture><source srcset="img/catalog/free-icon-onion-2362361.webp" type="image/webp"><img src="img/catalog/free-icon-onion-2362361.png" alt=""></picture></picture>Закуски</a>
+					  <a class="nav-link text-black" id="snacks-tab" data-bs-toggle="pill" data-bs-target="#snacks" type="button" role="tab" aria-controls="snacks" aria-selected="false"><picture><source srcset="img/catalog/free-icon-onion-2362361.webp" type="image/webp"><picture><source srcset="img/catalog/free-icon-onion-2362361.webp" type="image/webp"><img src="img/catalog/free-icon-onion-2362361.png" alt=""></picture></picture>Закуски</a>
 					</li>
 					<li class="nav-item">
-					  <a class="nav-link text-black" href="#"><picture><source srcset="img/catalog/free-icon-hotdog-sandwich-2362313.webp" type="image/webp"><picture><source srcset="img/catalog/free-icon-hotdog-sandwich-2362313.webp" type="image/webp"><img src="img/catalog/free-icon-hotdog-sandwich-2362313.png" alt=""></picture></picture>Хот-доги</a>
+					  <a class="nav-link text-black"id="hot-dogs-tab" data-bs-toggle="pill" data-bs-target="#hot-dogs" type="button" role="tab" aria-controls="hot-dogs" aria-selected="false"><picture><source srcset="img/catalog/free-icon-hotdog-sandwich-2362313.webp" type="image/webp"><picture><source srcset="img/catalog/free-icon-hotdog-sandwich-2362313.webp" type="image/webp"><img src="img/catalog/free-icon-hotdog-sandwich-2362313.png" alt=""></picture></picture>Хот-доги</a>
 					</li>
 					<li class="nav-item">
-					  <a class="nav-link text-black" href="#"><picture><source srcset="img/catalog/free-icon-fast-food-2362274.webp" type="image/webp"><picture><source srcset="img/catalog/free-icon-fast-food-2362274.webp" type="image/webp"><img src="img/catalog/free-icon-fast-food-2362274.png" alt=""></picture></picture>Комбо</a>
+					  <a class="nav-link text-black" id="combo-tab" data-bs-toggle="pill" data-bs-target="#combo" type="button" role="tab" aria-controls="combo" aria-selected="false"><picture><source srcset="img/catalog/free-icon-fast-food-2362274.webp" type="image/webp"><picture><source srcset="img/catalog/free-icon-fast-food-2362274.webp" type="image/webp"><img src="img/catalog/free-icon-fast-food-2362274.png" alt=""></picture></picture>Комбо</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link text-black" href="#"><picture><source srcset="img/catalog/free-icon-burrito-2362225.webp" type="image/webp"><picture><source srcset="img/catalog/free-icon-burrito-2362225.webp" type="image/webp"><img src="img/catalog/free-icon-burrito-2362225.png" alt=""></picture></picture>Шаурма</a>
+						<a class="nav-link text-black" id="shawarma-tab" data-bs-toggle="pill" data-bs-target="#shawarma" type="button" role="tab" aria-controls="shawarma" aria-selected="false"><picture><source srcset="img/catalog/free-icon-burrito-2362225.webp" type="image/webp"><picture><source srcset="img/catalog/free-icon-burrito-2362225.webp" type="image/webp"><img src="img/catalog/free-icon-burrito-2362225.png" alt=""></picture></picture>Шаурма</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link text-black" href="#"><picture><source srcset="img/catalog/free-icon-pizza-2362372.webp" type="image/webp"><picture><source srcset="img/catalog/free-icon-pizza-2362372.webp" type="image/webp"><img src="img/catalog/free-icon-pizza-2362372.png" alt=""></picture></picture>Пицца</a>
+						<a class="nav-link text-black" id="pizza-tab" data-bs-toggle="pill" data-bs-target="#pizza" type="button" role="tab" aria-controls="pizza" aria-selected="false"><picture><source srcset="img/catalog/free-icon-pizza-2362372.webp" type="image/webp"><picture><source srcset="img/catalog/free-icon-pizza-2362372.webp" type="image/webp"><img src="img/catalog/free-icon-pizza-2362372.png" alt=""></picture></picture>Пицца</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link text-black" href="#"><picture><source srcset="img/catalog/free-icon-noodles-2362350.webp" type="image/webp"><picture><source srcset="img/catalog/free-icon-noodles-2362350.webp" type="image/webp"><img src="img/catalog/free-icon-noodles-2362350.png" alt=""></picture></picture>Вок</a>
+						<a class="nav-link text-black" id="wok-tab" data-bs-toggle="pill" data-bs-target="#wok" type="button" role="tab" aria-controls="wok" aria-selected="false"><picture><source srcset="img/catalog/free-icon-noodles-2362350.webp" type="image/webp"><picture><source srcset="img/catalog/free-icon-noodles-2362350.webp" type="image/webp"><img src="img/catalog/free-icon-noodles-2362350.png" alt=""></picture></picture>Вок</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link text-black" href="#"><picture><source srcset="img/catalog/free-icon-doughnut-2362260.webp" type="image/webp"><picture><source srcset="img/catalog/free-icon-doughnut-2362260.webp" type="image/webp"><img src="img/catalog/free-icon-doughnut-2362260.png" alt=""></picture></picture>Десерты</a>
+						<a class="nav-link text-black" id="deserts-tab" data-bs-toggle="pill" data-bs-target="#deserts" type="button" role="tab" aria-controls="deserts" aria-selected="false"><picture><source srcset="img/catalog/free-icon-doughnut-2362260.webp" type="image/webp"><picture><source srcset="img/catalog/free-icon-doughnut-2362260.webp" type="image/webp"><img src="img/catalog/free-icon-doughnut-2362260.png" alt=""></picture></picture>Десерты</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link text-black" href="#"><picture><source srcset="img/catalog/free-icon-ketchup-2362341.webp" type="image/webp"><picture><source srcset="img/catalog/free-icon-ketchup-2362341.webp" type="image/webp"><img src="img/catalog/free-icon-ketchup-2362341.png" alt=""></picture></picture>Соусы</a>
+						<a class="nav-link text-black" id="sauces-tab" data-bs-toggle="pill" data-bs-target="#sauces" type="button" role="tab" aria-controls="sauces"><picture><source srcset="img/catalog/free-icon-ketchup-2362341.webp" type="image/webp"><picture><source srcset="img/catalog/free-icon-ketchup-2362341.webp" type="image/webp"><img src="img/catalog/free-icon-ketchup-2362341.png" alt=""></picture></picture>Соусы</a>
 					</li>
 				</ul>
 				<div class="row flex-column flex-lg-row">
@@ -77,7 +77,7 @@
 													<div class="order__price">550₽</div>
 												</div>	
 											</div>
-											<div class="order__counter">
+											<div class="order__counter counter">
 												<span class="order__minus">-</span>
 												<span class="order__count">1</span>
 												<span class="order__add">+</span>
@@ -94,7 +94,7 @@
 													<div class="order__price">550₽</div>
 												</div>	
 											</div>
-											<div class="order__counter">
+											<div class="order__counter counter">
 												<span class="order__minus">-</span>
 												<span class="order__count">1</span>
 												<span class="order__add">+</span>
@@ -111,7 +111,7 @@
 													<div class="order__price">550₽</div>
 												</div>	
 											</div>
-											<div class="order__counter">
+											<div class="order__counter counter">
 												<span class="order__minus">-</span>
 												<span class="order__count">1</span>
 												<span class="order__add">+</span>
@@ -122,7 +122,7 @@
 										<span>Итого</span>
 										<span>1279₽</span>
 									</div>
-									<a class="cart__btn btn btn-orange w-100" href="#">Оформить заказ</a>
+									<a href="#delivery" class="cart__btn btn btn-orange w-100" data-bs-toggle="modal"  role="button">Оформить заказ</a>
 									<div class="cart__free-delivery d-flex justify-content-between align-items-center">
 										<span class="d-flex align-items-center column-gap-2"><picture><source srcset="img/cart/free-icon-delivery-2362252.webp" type="image/webp"><picture><source srcset="img/cart/free-icon-delivery-2362252.webp" type="image/webp"><img src="img/cart/free-icon-delivery-2362252.png" alt="free-delivery"></picture></picture> Бесплатная доставка</span>
 										<span><button class="d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Свернуть</button></span>
@@ -131,54 +131,175 @@
 							</div>	
 						</div>
 					</div>
-					<div class="col catalog__products products-catalog">
-						<div class="products-catalog__title">Бургеры</div>
-						<ul class="row">
-							<li class="col-6 col-md-3 col-lg-6 col-xl-4 products-catalog__item item-products-catalog">
-								<div class="item-products-catalog__img"><picture><source srcset="img/products/burgers/meat-bomb.webp" type="image/webp"><picture><source srcset="img/products/burgers/meat-bomb.webp" type="image/webp"><img class="w-100" src="img/products/burgers/meat-bomb.png" alt=""></picture></picture></div>
-								<div class="item-products-catalog__price">689₽</div>
-								<div class="item-products-catalog__name">Мясная бомба</div>
-								<div class="item-products-catalog__weight">520г</div>
-								<a href="#" class="btn item-products-catalog__btn btn-gray d-block">Добавить</a>
-							</li>
-							<li class="col-6 col-md-3 col-lg-6 col-xl-4 products-catalog__item item-products-catalog">
-								<div class="item-products-catalog__img"><picture><source srcset="img/products/burgers/meat-bomb.webp" type="image/webp"><picture><source srcset="img/products/burgers/meat-bomb.webp" type="image/webp"><img class="w-100" src="img/products/burgers/meat-bomb.png" alt=""></picture></picture></div>
-								<div class="item-products-catalog__price">689₽</div>
-								<div class="item-products-catalog__name">Мясная бомба</div>
-								<div class="item-products-catalog__weight">520г</div>
-								<a href="#" class="btn item-products-catalog__btn btn-gray d-block">Добавить</a>
-							</li>
-							<li class="col-6 col-md-3 col-lg-6 col-xl-4 products-catalog__item item-products-catalog">
-								<div class="item-products-catalog__img"><picture><source srcset="img/products/burgers/meat-bomb.webp" type="image/webp"><picture><source srcset="img/products/burgers/meat-bomb.webp" type="image/webp"><img class="w-100" src="img/products/burgers/meat-bomb.png" alt=""></picture></picture></div>
-								<div class="item-products-catalog__price">689₽</div>
-								<div class="item-products-catalog__name">Мясная бомба</div>
-								<div class="item-products-catalog__weight">520г</div>
-								<a href="#" class="btn item-products-catalog__btn btn-gray d-block">Добавить</a>
-							</li>
-							<li class="col-6 col-md-3 col-lg-6 col-xl-4 products-catalog__item item-products-catalog">
-								<div class="item-products-catalog__img"><picture><source srcset="img/products/burgers/meat-bomb.webp" type="image/webp"><picture><source srcset="img/products/burgers/meat-bomb.webp" type="image/webp"><img class="w-100" src="img/products/burgers/meat-bomb.png" alt=""></picture></picture></div>
-								<div class="item-products-catalog__price">689₽</div>
-								<div class="item-products-catalog__name">Мясная бомба</div>
-								<div class="item-products-catalog__weight">520г</div>
-								<a href="#" class="btn item-products-catalog__btn btn-gray d-block">Добавить</a>
-							</li>
-							<li class="col-6 col-md-3 col-lg-6 col-xl-4 products-catalog__item item-products-catalog">
-								<div class="item-products-catalog__img"><picture><source srcset="img/products/burgers/meat-bomb.webp" type="image/webp"><picture><source srcset="img/products/burgers/meat-bomb.webp" type="image/webp"><img class="w-100" src="img/products/burgers/meat-bomb.png" alt=""></picture></picture></div>
-								<div class="item-products-catalog__price">689₽</div>
-								<div class="item-products-catalog__name">Мясная бомба</div>
-								<div class="item-products-catalog__weight">520г</div>
-								<a href="#" class="btn item-products-catalog__btn btn-gray d-block">Добавить</a>
-							</li>
-							<li class="col-6 col-md-3 col-lg-6 col-xl-4 products-catalog__item item-products-catalog">
-								<div class="item-products-catalog__img"><picture><source srcset="img/products/burgers/meat-bomb.webp" type="image/webp"><picture><source srcset="img/products/burgers/meat-bomb.webp" type="image/webp"><img class="w-100" src="img/products/burgers/meat-bomb.png" alt=""></picture></picture></div>
-								<div class="item-products-catalog__price">689₽</div>
-								<div class="item-products-catalog__name">Мясная бомба</div>
-								<div class="item-products-catalog__weight">520г</div>
-								<a href="#" class="btn item-products-catalog__btn btn-gray d-block">Добавить</a>
-							</li>
-						</ul>
+					<div class="col catalog__products products-catalog tab-content">	
+						<div class="tab-pane fade show active" role="tabpanel" aria-labelledby="burgers-tab" tabindex="0" id="burgers">
+							<div class="products-catalog__title">Бургеры</div>
+							<ul class="row">
+								<li class="col-6 col-md-3 col-lg-6 col-xl-4 products-catalog__item item-products-catalog">
+									<a data-bs-toggle="modal" href="#meat-bomb" role="button">
+										<div class="item-products-catalog__img"><picture><source srcset="img/products/burgers/meat-bomb.webp" type="image/webp"><picture><source srcset="img/products/burgers/meat-bomb.webp" type="image/webp"><img class="w-100" src="img/products/burgers/meat-bomb.png" alt=""></picture></picture></div>
+										<div class="item-products-catalog__price">689₽</div>
+										<div class="item-products-catalog__name">Мясная бомба</div>
+										<div class="item-products-catalog__weight">520г</div>
+									</a>
+									<a href="#" class="btn item-products-catalog__btn btn-gray d-block">Добавить</a>
+								</li>
+								<li class="col-6 col-md-3 col-lg-6 col-xl-4 products-catalog__item item-products-catalog">
+									<a data-bs-toggle="modal" href="#meat-bomb" role="button">
+										<div class="item-products-catalog__img"><picture><source srcset="img/products/burgers/meat-bomb.webp" type="image/webp"><picture><source srcset="img/products/burgers/meat-bomb.webp" type="image/webp"><img class="w-100" src="img/products/burgers/meat-bomb.png" alt=""></picture></picture></div>
+										<div class="item-products-catalog__price">689₽</div>
+										<div class="item-products-catalog__name">Мясная бомба</div>
+										<div class="item-products-catalog__weight">520г</div>
+									</a>
+									<a href="#" class="btn item-products-catalog__btn btn-gray d-block">Добавить</a>
+								</li>
+								<li class="col-6 col-md-3 col-lg-6 col-xl-4 products-catalog__item item-products-catalog">
+									<a data-bs-toggle="modal" href="#meat-bomb" role="button">
+										<div class="item-products-catalog__img"><picture><source srcset="img/products/burgers/meat-bomb.webp" type="image/webp"><picture><source srcset="img/products/burgers/meat-bomb.webp" type="image/webp"><img class="w-100" src="img/products/burgers/meat-bomb.png" alt=""></picture></picture></div>
+										<div class="item-products-catalog__price">689₽</div>
+										<div class="item-products-catalog__name">Мясная бомба</div>
+										<div class="item-products-catalog__weight">520г</div>
+									</a>
+									<a href="#" class="btn item-products-catalog__btn btn-gray d-block">Добавить</a>
+								</li>
+								<li class="col-6 col-md-3 col-lg-6 col-xl-4 products-catalog__item item-products-catalog">
+									<a data-bs-toggle="modal" href="#meat-bomb" role="button">
+										<div class="item-products-catalog__img"><picture><source srcset="img/products/burgers/meat-bomb.webp" type="image/webp"><picture><source srcset="img/products/burgers/meat-bomb.webp" type="image/webp"><img class="w-100" src="img/products/burgers/meat-bomb.png" alt=""></picture></picture></div>
+										<div class="item-products-catalog__price">689₽</div>
+										<div class="item-products-catalog__name">Мясная бомба</div>
+										<div class="item-products-catalog__weight">520г</div>
+									</a>
+									<a href="#" class="btn item-products-catalog__btn btn-gray d-block">Добавить</a>
+								</li>
+								<li class="col-6 col-md-3 col-lg-6 col-xl-4 products-catalog__item item-products-catalog">
+									<a data-bs-toggle="modal" href="#meat-bomb" role="button">
+										<div class="item-products-catalog__img"><picture><source srcset="img/products/burgers/meat-bomb.webp" type="image/webp"><picture><source srcset="img/products/burgers/meat-bomb.webp" type="image/webp"><img class="w-100" src="img/products/burgers/meat-bomb.png" alt=""></picture></picture></div>
+										<div class="item-products-catalog__price">689₽</div>
+										<div class="item-products-catalog__name">Мясная бомба</div>
+										<div class="item-products-catalog__weight">520г</div>
+									</a>
+									<a href="#" class="btn item-products-catalog__btn btn-gray d-block">Добавить</a>
+								</li>
+								<li class="col-6 col-md-3 col-lg-6 col-xl-4 products-catalog__item item-products-catalog">
+									<a data-bs-toggle="modal" href="#meat-bomb" role="button">
+										<div class="item-products-catalog__img"><picture><source srcset="img/products/burgers/meat-bomb.webp" type="image/webp"><picture><source srcset="img/products/burgers/meat-bomb.webp" type="image/webp"><img class="w-100" src="img/products/burgers/meat-bomb.png" alt=""></picture></picture></div>
+										<div class="item-products-catalog__price">689₽</div>
+										<div class="item-products-catalog__name">Мясная бомба</div>
+										<div class="item-products-catalog__weight">520г</div>
+									</a>
+									<a href="#" class="btn item-products-catalog__btn btn-gray d-block">Добавить</a>
+								</li>
+							</ul>
+						</div>
+						<div class="tab-pane fade" role="tabpanel" aria-labelledby="snacks-tab" tabindex="0" id="snacks">
+							Извините, в данный момент товар недоступен 1
+						</div>
+						<div class="tab-pane fade" role="tabpanel" aria-labelledby="hot-dogs-tab" tabindex="0" id="hot-dogs">
+							Извините, в данный момент товар недоступен 2
+						</div>
+						<div class="tab-pane fade" role="tabpanel" aria-labelledby="combo-tab" tabindex="0" id="combo">
+							Извините, в данный момент товар недоступен 3
+						</div>
+						<div class="tab-pane fade" role="tabpanel" aria-labelledby="shawarma-tab" tabindex="0" id="shawarma">
+							Извините, в данный момент товар недоступен 4
+						</div>
+						<div class="tab-pane fade" role="tabpanel" aria-labelledby="pizza-tab" tabindex="0" id="pizza">
+							Извините, в данный момент товар недоступен 5
+						</div>
+						<div class="tab-pane fade" role="tabpanel" aria-labelledby="wok-tab" tabindex="0" id="wok">
+							Извините, в данный момент товар недоступен 6
+						</div>
+						<div class="tab-pane fade" role="tabpanel" aria-labelledby="deserts-tab" tabindex="0" id="deserts">
+							Извините, в данный момент товар недоступен 7
+						</div>
+						<div class="tab-pane fade" role="tabpanel" aria-labelledby="sauces-tab" tabindex="0" id="sauces">
+							Извините, в данный момент товар недоступен 8
+						</div>
 					</div>
 				</div>
+			</div>
+		</div>
+
+		<!--Модальные окна-->
+		<div class="modal product-card fade" id="meat-bomb" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog m-0 d-md-flex justify-content-md-center align-items-md-center">
+			  <div class="modal-content">
+				<div class="container">
+					<button class="modal__close-btn" type="button" data-bs-dismiss="modal"></button>
+					<div class="product-card__header">
+						<div class="product-card__title">Мясная бомба</div>
+					</div>
+					<div class="product-card__body d-md-flex">
+						<div class="product-card__img"><picture><source srcset="img/product-card/meat-bomb.webp" type="image/webp"><picture><source srcset="img/product-card/meat-bomb.webp" type="image/webp"><img class="w-100" src="img/product-card/meat-bomb.png" alt="meat-bomb"></picture></picture></div>
+						<div class="product-card__description">
+							<p>Супер мясное наслаждение! Большая рубленая котлета из свежего говяжего мяса покорит вас своей сочностью, а хрустящие листья салата добавят свежести.</p>
+							<div class="product-card__structure">
+								<ul>
+									<li class="product-card__structure-title">Состав:</li>
+									<li>Пшеничная булочка</li>
+									<li>Котлета из говядины</li>
+									<li>Красный лук</li>
+									<li>Листья салата</li>
+									<li>Соус сорчичный</li>
+								</ul>
+							</div>
+							<p class="product-card__weight">520г, ккал 430</p>
+						</div>
+					</div>
+					<div class="product-card__footer d-md-flex justify-content-md-between align-items-md-center">
+						<div class="product-card__btns d-flex align-items-center">
+							<a href="#" class="btn flex-grow-1 btn-orange">Добавить</a>
+							<div class="product-card__counter counter">
+								<span class="order__minus">-</span>
+								<span class="order__count">1</span>
+								<span class="order__add">+</span>
+							</div>
+						</div>
+						<div class="product-card__price text-end">689₽</div>
+					</div>
+				</div>
+			  </div>
+			</div>
+		</div>
+		<div class="modal delivery fade" id="delivery" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog m-0 d-md-flex justify-content-md-center align-items-md-center">
+			  <div class="modal-content">
+				<div class="container">
+					<button class="modal__close-btn" type="button" data-bs-dismiss="modal"></button>
+					<div class="row">
+						<div class="col d-none d-lg-flex col-lg-6 delivery__decorative justify-content-center align-items-center">
+							<img src="img/delivery-form/donut.svg" alt="donut">
+						</div>
+						<div class="col-12 col-md-8 col-lg-6  d-flex flex-column">
+							<div class="delivery__header">
+								<div class="delivery__title">Доставка</div>
+							</div>
+							<div class="delivery__body flex-grow-1">
+								<form action="get" class="delivery__form form">
+									<div class="form__contacts">
+										<input placeholder="Ваше имя" type="text">
+										<input placeholder="Телефон" type="text">
+									</div>
+									<div class="form__radios">
+										<p class="d-flex align-items-center"><input type="radio" name="delivery-type" value="pickup"> Самовывоз</p>
+										<p class="d-flex align-items-center"><input type="radio" name="delivery-type" value="delivery" checked> Доставка</p>
+									</div>
+									<div class="form__address">
+										<input placeholder="Улица, дом, квартира" type="text">
+										<div class="form__small-inputs d-flex">
+											<input placeholder="Этаж" type="text">
+											<input placeholder="Домофон" type="text">
+										</div>
+									</div>
+								</form>
+							</div>
+							<div class="delivery__footer">
+								<a href="#" class="btn d-block w-100 btn-orange">Добавить</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			  </div>
 			</div>
 		</div>
 	</main>
@@ -216,6 +337,6 @@
 		</div>
 	</div>
 </footer>
-	<script src="js/app.min.js?_v=20230414180349"></script>
+	<script src="js/app.min.js?_v=20230415000543"></script>
 </body>
 </html>
